@@ -1,0 +1,82 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color:#faf9f8;
+}
+nav{
+    width: 100%;
+    background: #17202A;
+    overflow:hidden;
+}
+
+nav ul{
+    padding:0;
+    margin:0 0 0 100px;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+nav .logout{
+    float : right;
+}
+.logo img{
+    Position:absolute;
+    padding: 1px;
+    margin:-20px -70px;
+}
+
+nav a{
+    margin:1px;
+    width: 120px;
+    display:block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    text-align: center; 
+    /* overflow: hidden; */ 
+}
+
+nav a:hover {
+    border-radius: 10px;
+    background-color: rgb(4, 50, 25);
+    color: orange;
+} 
+
+nav .xyz a{
+    width: 120px;
+    display:block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: cursive;
+    border-radius: 10px;
+    background-color: rgb(4, 50, 25);
+    color: white;
+    text-align: center; 
+    /* overflow: hidden; */ 
+}
+/* For Home */
+.btn {
+    margin-left: 150px;
+    font-weight: 700;
+    height: 50px;
+    width:300px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.signup-form .form-group {
+    font-family: cursive;
+	margin-bottom: 10px;
+    
+}
+.signup-form  h3{
+    font-family:cursive;
+    padding:0px;
+    margin-left:35%;
+    margin-top:10px;
+    margin-bottom:10px;
+}

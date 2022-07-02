@@ -1,0 +1,101 @@
+body
+{ 
+    margin:0;
+    padding:0;
+    background-color:#fcfcfc;
+    
+}
+nav{
+    width: 100%;
+    background:#17202A;
+    overflow:auto;
+}
+
+nav ul{
+    padding:0;
+    margin:0 0 0 10px;
+    list-style: none;
+}
+nav li{
+    float: right;
+}
+.logo img{
+    Position:absolute;
+    padding: 1px;
+    margin:-20px -70px;
+}
+nav a{
+    width: 100px;
+    display:block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: cursive;
+    color: #fcfafa;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #17202A;  
+}
+nav a:hover {
+    border-radius: 10px;
+    background-color: rgb(4, 50, 25);
+    color: rgb(241, 110, 3);
+}
+/* Nev end */
+
+/* Slider */
+#outer{
+    border: solid;
+    margin-top: 10px;
+    margin-left: 30%;
+    width:612px;
+     overflow:hidden;
+}
+#Animation-slide{
+    position: relative;
+    width:2448px;
+    /* height: 400px; */
+    animation-name: slider;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+}
+
+#Animation-slide img{
+    float: left;
+}
+@keyframes slider{
+    0%{
+        left:0px;
+        
+    }
+    20%{
+        left:0px;
+    }
+    25%{
+        left:-612px; 
+    }
+    45%{
+        left:-612px;
+    }
+    50%{
+        left:-1224px;
+    }
+    70%{
+        left:-1224px;
+    }
+    75%{
+        left: -1836px;
+    }
+    95%{
+        left:-1836px;
+    }
+    100%{
+        left: -2448px;
+    }
+}
+.motivation{
+    margin-left:40%;
+    color:red;
+    font-family: cursive;
+}
+
+/* Slider End */
